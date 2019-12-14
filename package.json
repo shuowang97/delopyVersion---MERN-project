@@ -2,29 +2,28 @@
   "name": "gzhipin-server",
   "version": "0.0.0",
   "private": true,
-
   "scripts": {
     "start": "nodemon ./bin/www"
   },
   "dependencies": {
-    "blueimp-md5": "^2.12.0",
-    "cookie-parser": "~1.4.4",
-    "debug": "~2.6.9",
-    "ejs": "~2.6.1",
-    "express": "~4.16.1",
-    "http-errors": "~1.6.3",
-    "mongoose": "^5.7.12",
-    "morgan": "~1.9.1",
-    "socket.io": "^2.3.0",
-	"@ant-design/react-native": "^3.2.0",
+    "@ant-design/react-native": "^3.2.0",
     "antd": "^3.25.1",
     "antd-mobile": "^2.3.1",
     "axios": "^0.19.0",
     "babel-plugin-import": "^1.12.2",
+    "blueimp-md5": "^2.12.0",
+    "cookie-parser": "~1.4.4",
     "customize-cra": "^0.8.0",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
     "js-cookie": "^2.2.1",
     "less": "^3.10.3",
     "less-loader": "^5.0.0",
+    "mongoose": "^5.7.12",
+    "morgan": "~1.9.1",
     "prop-types": "^15.7.2",
     "rc-queue-anim": "^1.8.3",
     "rc-texty": "^0.2.0",
@@ -40,6 +39,6 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.1",
-	"redux-devtools-extension": "^2.13.8"
+    "redux-devtools-extension": "^2.13.8"
   }
 }
