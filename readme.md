@@ -95,11 +95,11 @@
 ### Argument Type：
 
 	|Argument  |Not Null |Type     |Description
-	|header    |Y        |string   |头像名称
-	|info      |N        |string   |介绍
-	|post      |N        |string   |职位
-	|salary    |N        |string   |月薪
-	|company   |N        |string   |公司
+	|header    |Y        |string   |头像名称(header)
+	|info      |N        |string   |介绍(description)
+	|post      |N        |string   |职位(position)
+	|salary    |N        |string   |月薪(salary)
+	|company   |N        |string   |公司(company)
 
 ### Example of response：
 
@@ -267,7 +267,7 @@
 ### Argument Type
 
 	|Argument   |Not Null |Type     |Description
-	|from       |Y        |string   |发送消息用户的id
+	|from       |Y        |string   |发送消息用户的id(the user that sends message)
 
 ### Example of response：
 
