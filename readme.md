@@ -174,7 +174,7 @@
 
 ### Argument Type: query
 
-	|Argument	|Not Null |Type     |Description
+	|Argument   |Not Null |Type     |Description
 	|type       |Y        |string   |Type(dashen/laoban)
 
 ### Example of response：
